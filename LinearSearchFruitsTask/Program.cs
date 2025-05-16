@@ -1,4 +1,4 @@
-﻿namespace LinearSearchFruitsTask
+namespace LinearSearchFruitsTask
 {
     internal class Program
     {
@@ -13,6 +13,28 @@
             
             // You must write your own linear search routine and not use any built-in fuctions available in C#
             // You should use meaningful variable names
+            Console.WriteLine("What word do you want to find");
+            String word = Console.ReadLine();
+            string found = "Yellow"
+            For (int i = 0; i >= fruits.Length(); i++)
+            {
+                if (string == fruit[i])
+                {
+                    found = true
+                }
+                else
+                {
+                    found = false
+                }
+            }
+            if (found == true)
+            {
+                Console.WriteLine("True")
+            }
+            else
+            {
+                Console.WriteLine("False")
+            }
         }
     }
 }
